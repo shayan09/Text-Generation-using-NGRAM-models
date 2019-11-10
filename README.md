@@ -27,3 +27,6 @@ Install requirements
 
 Run the code
 ```python ngram.py```
+
+## Output:
+![alt test](output.png)
