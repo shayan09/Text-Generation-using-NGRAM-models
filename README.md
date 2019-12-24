@@ -1,7 +1,7 @@
-# Text-Generation-using-NGRAM-models
+### Text-Generation-using-NGRAM-models
 Generating text using N-gram models that were trained on shakespeare.txt and warpeace.txt
 
-## Overview of the code:
+#### Overview of the code:
 - Find out all the contexts (n-1 preceding words) of the words in the train set.
 - Before starting, pad the text with start and stop tokens.
 - Keep a count for the ngram, contexts and store all the words seen in the corpus.
@@ -21,12 +21,12 @@ Generating text using N-gram models that were trained on shakespeare.txt and war
 - Once we can generate words, we can generate sentences. Wrote a function randomtext(model,maxlength, delta=0) that generates up to max length words, using the previously generated words as context for each new word. However, the sentence generated did not make much sense.
 - Train  four  models  –  one  bigram,  one  trigram,  one  4-gram,and one 5-gram – on shakespeare.txt and generated the likeliest sentence for each one using maxlength = 10.
 
-## Running the code:
+#### Running the code:
 Install requirements
 ```pip install -r requirements.txt```
 
 Run the code
 ```python ngram.py```
 
-## Output:
+#### Output:
 ![alt test](output.png)
