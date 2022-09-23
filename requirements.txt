@@ -30,7 +30,7 @@ opt-einsum==3.1.0
 pandas==0.25.1
 plac==0.9.6
 preshed==2.0.1
-protobuf==3.9.2
+protobuf==3.18.3
 pyasn1==0.4.7
 pybind11==2.4.2
 pyspark==2.4.3
